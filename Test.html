@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    table{
+      border: 1px solid black;
+      border-bottom: 0px;
+      border-collapse: collapse;
+      padding: 8px;
+      width: 100%;
+    }
+
+    input[type=radio] {
+      border: 1px solid black;
+      padding: 0.5em;
+      -webkit-appearance: none;
+    }
+
+    input[type=radio]:checked {
+      background: cyan;
+      background-size: 9px 9px;
+    }
+
+    input[type=radio]:focus {
+      outline-color: transparent;
+    }
+
+    .borderFull{
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      border-bottom: 0px;
+      width: 100%;
+    }
+
+    #insideTable tr td{
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    td{
+      padding: 8px;
+    }
+
+    th{
+      border: 1px solid black;
+      padding: 8px;
+    }
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Test Farmagitech</title>
+</head>
+<body>
+    <i>(Diisi oleh Dokter)</i>
+    <table class="borderFull">
+      <tr>
+        <td style="text-align: center; width: 30%;"><img style="width: 100%; height: 100px;" src="logo.jpg"></td>
+        <td class="borderFull" style="text-align: center; width: 35%;"><b>Resume Medis Pasien Pulang</b><br>(Dischargesummary)</td>
+        <td style="text-align: justify; border: 0px; padding-left: 2px;">
+          NO RM
+          <br>Nama 
+          <br>TTL 
+          <br>JK
+        </td>
+        <td>
+          :
+          <br> :
+          <br> :
+          <br> :
+        </td>
+        <td style="border-right: 1px solid black;">
+          ……………………
+          <br>……………………
+          <br>……………………
+          <br>……………………
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td style="width: 50%;">Tanggal Masuk : ……………………<br>( Admission Date )</td>
+        <td colspan="2" style="width: 50%;">Tanggal Keluar : ……………………<br>( Discharge Date )</td>
+      </tr>
+      <tr>
+        <td style="width: 50%;"><b>Ruang Rawat Terakhir ( Last Ward )</b></td>
+        <td style="width: 15%;"><b>BBL : </b></td>
+        <td style="width: 35%;"><b>gram</b></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><b>RINGKASAN RIWAYAT PENYAKIT :</b><br>( History of disease summary )</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td><b>PEMERIKSAAN FISIK :</b><br>( Physical findings )</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td><b>PEMERIKSAAN PENUNJANG :</b><br>( Supporting examination )</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td><b>TERAPI / PENGOBATAN SELAMA DI RUMAH SAKIT :</b><br>( Therapy / treatment in hospital )</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td><b>DIET :</b><br>( Diet )</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td><b>HASIL KONSULTASI :</b><br>( The result of consultations   )</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td ><b>DIAGNOSA UTAMA :</b><br>( Primary diagnosa )</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">………………………………………… CD 10 : ……………………………</td>
+      </tr>
+      <tr>
+        <td><b>DIAGNOSA TAMBAHAN :</b><br>( Additional diagnosis )</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">………………………………………… CD 10 : ……………………………</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">………………………………………… CD 10 : ……………………………</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">………………………………………… CD 10 : ……………………………</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">………………………………………… CD 10 : ……………………………</td>
+      </tr>
+      <tr>
+        <td><b>TINDAKAN / PROSEDUR / OPERASI :</b><br>( Action / procedure / surgery )</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">…………………………………….. ICD 9 CM : ……………………………</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">…………………………………….. ICD 9 CM : ……………………………</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;">…………………………………….. ICD 9 CM : ……………………………</td>
+      </tr>
+      <tr>
+        <td><b>INSTRUKSI PERAWATAN LANJUTAN / EDUKASI :</b><br>( Continued Care Instruction / education )</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      <tr>
+        <td>………………………………………………………………………………………………………………</td>
+      </tr>
+      
+    </table>
+    <table style="border-top: 0px; border-bottom: 1px solid black;">
+      <tr>
+        <td style="width: 30%;">Cara Pulang</td>
+        <td>:</td>
+        <td>
+          <label><input type="radio" value=""/>Izin Dokter</label>
+          <label><input type="radio" value=""/>Pindah Rumah Sakit</label>
+          <label><input type="radio" value=""/>Permintaan Sendiri</label>
+          <br>
+          <label><input type="radio" value=""/>Melarikan diri *)</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Kondisi Saat Pulang</td>
+        <td>:</td>
+        <td>
+          <label><input type="radio" value=""/>Sembuh</label>
+          <label><input type="radio" value=""/>Perbaikan</label>
+          <label><input type="radio" value=""/>Tidak Sembuh</label>
+          <br>
+          <label><input type="radio" value=""/>Meninggal < 48 jam</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Pengobatan dilanjutkan ke</td>
+        <td>:</td>
+        <td>
+          <label><input type="radio" value=""/>Poliklinik RS ..................</label>
+          <label><input type="radio" value=""/>Dokter</label>
+          <label><input type="radio" value=""/>Puskesmas..................</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><b>TERAPI PULANG :</b><br>( Take home therapy )</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <table id="insideTable" style="width: 100%;">
+            <tr>
+              <th>No</th>
+              <th>Nama Obat</th>
+              <th>Jumlah</th>
+              <th>Dosis</th>
+              <th>Frekuensi</th>
+              <th>Cara Pemberian</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="padding: 0px; ">
+          <table style="border: 0px;">
+          <tr style="width: 100%;">
+            <td>PROGNOSIS : <br>( Prognosis ) *)</td>
+            <td><br><label><input type="radio" value=""/>Ad Vitam</label></td>
+            <td><br> : </td>
+            <td><br><label><input type="radio" value=""/>Dubia Ad Bonam</label></td>
+            <td><br><label><input type="radio" value=""/>Dubia Ad Malam</label></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><label><input type="radio" value=""/>Ad Functionam</label></td>
+            <td> : </td>
+            <td><label><input type="radio" value=""/>Dubia Ad Bonam</label></td>
+            <td><label><input type="radio" value=""/>Dubia Ad Malam</label></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+    <p><i>*) Beri tanda silang (x) sesuai pilihan <br> Dibuat Rangkap 2 ( 1 untuk Rekam Medis, 1 untuk penjamin )</i></p>
+    <div style="text-align: center; margin-right: 0; margin-left: auto; display: table;">
+      <p>Lhokseumawe,.................................... 20..........</p>
+      <p>Dokter Penanggung Jawab Pelayanan</p>
+      <br><br><br><br>
+      <p>(..........................................................)</p>
+      <p><i>Tanda Tangan dan Nama Jelas</i></p>
+    </div>
+</body>
+</html>
